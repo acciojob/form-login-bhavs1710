@@ -1,7 +1,5 @@
-function getFormvalue() {
-    //Write your code here
-	 var Fname= "Brody";
-	var lname="sha";
-    alert( Fname + lname);
+function getFormvalue(fname , lname) {
+    var message = document.getElementById("form1").value;
+alert( message );
 
 }
